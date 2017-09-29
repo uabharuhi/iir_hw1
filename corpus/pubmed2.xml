@@ -1,0 +1,182 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28954349</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0253-2727</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>38</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Zhonghua xue ye xue za zhi = Zhonghua xueyexue zazhi</Title>
+                <ISOAbbreviation>Zhonghua Xue Ye Xue Za Zhi</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>[Prediction of outcome in acute myeloid leukemia by measurement of WT1 expression as a basic marker of minimal residual disease].</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>695-699</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3760/cma.j.issn.0253-2727.2017.08.009</ELocationID>
+            <Abstract>
+                <AbstractText>Objective: To probe the potential utility of Wilms tumor 1 (WT1) as a marker of minimal residual disease (MRD) in acute myeloid leukemia (AML) to estimate the relapse-predicting cut-off value. Methods: Quantitative assessment of bone marrow WT1 mRNA level was preformed using real-time quantitative reverse transcription polymerase chain reaction (RQ-RT-PCR) assay. The expression levels of WT1 dynamically measured with RQ-RT-PCR were retrospectively analyzed in 121 AML cases (not including acute promyelocytic leukemia) achieving complete remission (CR) after induction therapy followed by consolidation therapy. By comparing WT1 levels of patients with different post-therapy outcomes, the investigators used the receiver operating characteristic (ROC) curve to determine WT1 threshold so as to predict their clinical relapses. Then prognoses and the significance of intervention were analyzed between WT1 positive and negative patients according to the cut-off value of WT1. Results: According to ROC curve, WT1 level higher than 2.98% predicted the possibility of relapse. For simplicity and clinical application, 3.00% was used as the cut-off value of WT1 level for relapse. WT1 levels in 41 patients at diagnosis were detected, meanwhile 3 patients whose WT1 levels at diagnosis below 3.00% were excluded, then the median WT1 level of the rest 38 patients at diagnosis was 44.09% (range 7.19%-188.06%) . The median WT1 level in remission was 0.48% (352 samples, range 0-8.41%) . The median WT1 level at diagnosis was higher than that in remission. Excluding the 3 patients with WT1 level at diagnosis under 3.00%, the relapse rate of WT1 positive group (&gt;3.00% during consolidation phase and follow-up) and WT1 negative group (≤3.00%) was 70.0% (14/20) and 12.2% (12/98) respectively (P&lt;0.001) . The median time from WT1 positivity to clinical relapse was 58 days. Conclusions: WT1 expression level above 3.00% was associated with markedly high risk of relapse, which could be as a useful marker for monitoring MRD following consolidation therapy.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>N</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Hematology &amp; Blood Disease Hospital, CAMS &amp; PUMC, Tianjin 300020, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wei</LastName>
+                    <ForeName>H</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Y</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lin</LastName>
+                    <ForeName>D</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>C L</ForeName>
+                    <Initials>CL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>B C</ForeName>
+                    <Initials>BC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>K Q</ForeName>
+                    <Initials>KQ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>G J</ForeName>
+                    <Initials>GJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wei</LastName>
+                    <ForeName>S N</ForeName>
+                    <Initials>SN</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gong</LastName>
+                    <ForeName>B F</ForeName>
+                    <Initials>BF</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gong</LastName>
+                    <ForeName>X Y</ForeName>
+                    <Initials>XY</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>W</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Y</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Y T</ForeName>
+                    <Initials>YT</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qiu</LastName>
+                    <ForeName>S W</ForeName>
+                    <Initials>SW</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gu</LastName>
+                    <ForeName>R X</ForeName>
+                    <Initials>RX</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mi</LastName>
+                    <ForeName>Y C</ForeName>
+                    <Initials>YC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>J X</ForeName>
+                    <Initials>JX</Initials>
+                </Author>
+            </AuthorList>
+            <Language>chi</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D004740">English Abstract</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>China</Country>
+            <MedlineTA>Zhonghua Xue Ye Xue Za Zhi</MedlineTA>
+            <NlmUniqueID>8212398</NlmUniqueID>
+            <ISSNLinking>0253-2727</ISSNLinking>
+        </MedlineJournalInfo>
+        <OtherAbstract Type="Publisher" Language="chi">
+            <AbstractText>目的： 研究WT1基因作为微小残留病（MRD）监测指标在急性髓系白血病（AML）预后中的应用，并探索WT1 mRNA预测复发的阈值。 方法： 回顾性分析121例诱导缓解并行巩固治疗的AML患者（非急性早幼粒细胞白血病）WT1 mRNA的动态表达水平。比较巩固治疗后不同转归组患者的WT1 mRNA表达水平，依据受试者工作特征（ROC）曲线确定可预测临床复发的WT1 mRNA阈值。WT1 mRNA水平采用实时定量聚合酶链反应（RQ-PCR）法检测。 结果： 确立WT1 mRNA&gt;2.98%提示高风险复发。为了临床应用方便，将提示复发的WT1 mRNA阈值设为3.00%。41例患者初诊时检测了WT1 mRNA水平，剔除3例初诊WT1 mRNA低于3.00%的患者，余下38例患者初诊WT1 mRNA中位值为44.09%（7.19%~188.06%）。缓解期351份标本WT1 mRNA检测值中位为0.48%（0~8.41%）。初诊WT1 mRNA水平高于缓解期水平。除外初诊WT1 mRNA水平低于3.00%的3例患者，巩固治疗开始后WT1阳性组（&gt;3.00%）和阴性组（≤3.00%）复发率分别为70.0%（14/20）和12.2%（12/98）（P&lt;0.001）。WT1 mRNA升高达阈值后到复发的中位时间为58 d。 结论： WT1基因可以作为AML患者巩固治疗开始后的MRD监测指标，WT1 mRNA&gt;3.00%提示存在复发风险。.</AbstractText>
+        </OtherAbstract>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Leukemia, myeloid, acute</Keyword>
+            <Keyword MajorTopicYN="N">Relapse</Keyword>
+            <Keyword MajorTopicYN="N">Wilms’tumor gene 1</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28954349</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

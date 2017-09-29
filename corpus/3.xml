@@ -1,0 +1,139 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28954346</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0253-2727</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>38</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Zhonghua xue ye xue za zhi = Zhonghua xueyexue zazhi</Title>
+                <ISOAbbreviation>Zhonghua Xue Ye Xue Za Zhi</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>[Clinical significance of monitoring ETV6-RUNX1 fusion gene expression in children with acute lymphoblastic leukemia after allogeneic hematopoietic stem cell transplantation].</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>680-684</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3760/cma.j.issn.0253-2727.2017.08.006</ELocationID>
+            <Abstract>
+                <AbstractText>Objective: To investigate the clinical significance of monitoring ETV6-RUNX1 fusion gene in children with acute lymphoblastic leukemia (ALL) after allogeneic stem cell transplantation (allo-HSCT) . Methods: Clinical data of 13 children received allo-HSCT in Peking University Institute of Hematology from May 2009 to March 2016 were retrospectively collected. The ETV6-RUNX1 gene was examined by real-time quantitative polymerase chain reaction (RQ-PCR) . The correlation between its expression level and the disease status was analyzed. Results: Of 13 enrolled ALL cases, the ETV6-RUNX1 expression of 7 patients converted to positive after transplant at a median time of 137 days (range, 28-270 days) . The expression level of the first positive sample was 0.034% (range, 0.004%-0.061%) . The duration from ETV6-RUNX1 positive to hematological relapse was 196 days (range, 28-666 days) . Four patients experienced relapse at a median time of 294 days (range, 104-803 days) after allo-HSCT. The ETV6-RUNX1 expression converted to positive prior to MRD. Patients with positive ETV6-RUNX1 gene expression pre-transplantation would be more likely to relapse. Conclusion: Monitoring ETV6-RUNX1 by RQ-PCR could be used to evaluate MRD status after allo-HSCT. Patients with positive ETV6-RUNX1 after transplant had a poor prognosis.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hong</LastName>
+                    <ForeName>Y</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Peking University People's Hospital, Peking University Institute of Hematology, Beijing 100044, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qin</LastName>
+                    <ForeName>Y Z</ForeName>
+                    <Initials>YZ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Y Y</ForeName>
+                    <Initials>YY</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhou</LastName>
+                    <ForeName>S H</ForeName>
+                    <Initials>SH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Y</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>L P</ForeName>
+                    <Initials>LP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>X H</ForeName>
+                    <Initials>XH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>X J</ForeName>
+                    <Initials>XJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhao</LastName>
+                    <ForeName>X S</ForeName>
+                    <Initials>XS</Initials>
+                </Author>
+            </AuthorList>
+            <Language>chi</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D004740">English Abstract</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>China</Country>
+            <MedlineTA>Zhonghua Xue Ye Xue Za Zhi</MedlineTA>
+            <NlmUniqueID>8212398</NlmUniqueID>
+            <ISSNLinking>0253-2727</ISSNLinking>
+        </MedlineJournalInfo>
+        <OtherAbstract Type="Publisher" Language="chi">
+            <AbstractText>目的： 观察伴有ETV6-RUNX1融合基因阳性的儿童急性淋巴细胞白血病（ALL）患者异基因造血干细胞移植（allo-HSCT）后融合基因表达水平的变化特征，初步探讨其临床意义。 方法： 回顾性分析2009年5月至2016年3月行allo-HSCT的13例ETV6-RUNX1融合基因阳性儿童ALL患者的临床资料，采用实时荧光定量PCR法监测融合基因水平，并结合临床转归进行相关分析。 结果： 13例患者中男7例，女6例，中位年龄11（5~17）岁。移植前6例阳性，移植后7例阳性（5例为移植前阳性者，2例为新增者）；其移植后基因中位转阳时间为137（28~270）d，第1次基因阳性中位表达水平为0.034%（0.004%~0.061%），从基因第1次阳性至血液学复发间隔的中位时间为196（28~666）d，其中4例血液学复发（均死亡），中位复发时间为294（104~803）d。 结论： 移植前伴有ETV6-RUNX1融合基因阳性的儿童ALL患者移植后再次阳性的概率较高；移植后融合基因阳性者预后差。.</AbstractText>
+        </OtherAbstract>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Fusion gene, ETV6-RUNX1</Keyword>
+            <Keyword MajorTopicYN="N">Hematopoietic stem cell transplantation</Keyword>
+            <Keyword MajorTopicYN="N">Leukemia, lymphocytic, acute</Keyword>
+            <Keyword MajorTopicYN="N">Minimal residual disease</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28954346</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+

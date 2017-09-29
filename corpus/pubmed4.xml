@@ -1,0 +1,122 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28954352</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0253-2727</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>38</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Zhonghua xue ye xue za zhi = Zhonghua xueyexue zazhi</Title>
+                <ISOAbbreviation>Zhonghua Xue Ye Xue Za Zhi</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>[HSP90 inhibitor 17-AAG plays an important role in JAK3/STAT5 signaling pathways in HTLV-1 infection cell line HUT-102].</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>710-715</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3760/cma.j.issn.0253-2727.2017.08.012</ELocationID>
+            <Abstract>
+                <AbstractText>
+							 The First Affiliated Hospital.0.52 one two three.
+							 Really? 3326et.
+							 wwaasfsaf...
+							 
+								</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Q Q</ForeName>
+                    <Initials>QQ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The First Affiliated Hospital of Guangzhou Medical University, Guangzhou 510120, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tan</LastName>
+                    <ForeName>H</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fu</LastName>
+                    <ForeName>Z P</ForeName>
+                    <Initials>ZP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ma</LastName>
+                    <ForeName>Q</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Song</LastName>
+                    <ForeName>J L</ForeName>
+                    <Initials>JL</Initials>
+                </Author>
+            </AuthorList>
+            <Language>chi</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D004740">English Abstract</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>China</Country>
+            <MedlineTA>Zhonghua Xue Ye Xue Za Zhi</MedlineTA>
+            <NlmUniqueID>8212398</NlmUniqueID>
+            <ISSNLinking>0253-2727</ISSNLinking>
+        </MedlineJournalInfo>
+        <OtherAbstract Type="Publisher" Language="chi">
+            <AbstractText></AbstractText>
+        </OtherAbstract>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">HSP90 heat-shock proteins</Keyword>
+            <Keyword MajorTopicYN="N">Inhibitor</Keyword>
+            <Keyword MajorTopicYN="N">Leukemia, T cell</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28954352</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

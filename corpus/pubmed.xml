@@ -1,0 +1,126 @@
+<PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+        <PMID Version="1">28954352</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0253-2727</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>38</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Aug</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Zhonghua xue ye xue za zhi = Zhonghua xueyexue zazhi</Title>
+                <ISOAbbreviation>Zhonghua Xue Ye Xue Za Zhi</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>[HSP90 inhibitor 17-AAG plays an important role in JAK3/STAT5 signaling pathways in HTLV-1 infection cell line HUT-102].</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>710-715</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3760/cma.j.issn.0253-2727.2017.08.012</ELocationID>
+            <Abstract>
+                <AbstractText>
+								Objective: To analyze whether heat-shock protein 90 (HSP90) be involved in a permanently abnormal activated JAK/STAT signaling in ATL cells in vitro. 
+								Methods: The effect of 17-AAG on proliferation of ATL cell lines HUT-102 was assessed using CCK8 at different time points. 
+								Cell apoptosis was measured by flow cytometry. 
+								The specific proteins HSP90, STAT5, p-STAT5 and JAK3 were detected by Western blotting.
+								Results: Overexpression of HSP90 in HUT-102 cell lines was disclosed (P&lt;0.05) , and constitutive activation of JAK3/STAT5 signaling was observed in HTLV-1-infected T-cell lines but not in normal PBMCs; Treatment of ATL cell lines with 17-AAG led to reduced cell proliferation, but there was no significant change in terms of cell proliferation when the concentration of 17-AAG between 2 000-8 000 nmol/L (P&gt;0.05) . 
+								17-AAG induced cell apoptosis in different time-points and concentrations. 
+								17-AAG don't affect the expression of JAK3 gene. 
+								Conclusion: This study indicated that JAK3 as HSP90 client protein was aberrantly activated in HTLV-1-infected T-cell lines, leading to constitutive activation of p-STAT5 in JAK/STAT signal pathway, which demonstrated that HSP90-inhibitors 17-AAG inhibited the growth of HTLV-1-infected T-cell lines by reducing cell proliferation and inducing cell apoptosis.
+								</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Q Q</ForeName>
+                    <Initials>QQ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The First Affiliated Hospital of Guangzhou Medical University, Guangzhou 510120, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tan</LastName>
+                    <ForeName>H</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fu</LastName>
+                    <ForeName>Z P</ForeName>
+                    <Initials>ZP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ma</LastName>
+                    <ForeName>Q</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Song</LastName>
+                    <ForeName>J L</ForeName>
+                    <Initials>JL</Initials>
+                </Author>
+            </AuthorList>
+            <Language>chi</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D004740">English Abstract</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>China</Country>
+            <MedlineTA>Zhonghua Xue Ye Xue Za Zhi</MedlineTA>
+            <NlmUniqueID>8212398</NlmUniqueID>
+            <ISSNLinking>0253-2727</ISSNLinking>
+        </MedlineJournalInfo>
+        <OtherAbstract Type="Publisher" Language="chi">
+            <AbstractText>目的： 通过体外实验探索成人T细胞白血病（ATL）细胞内JAK/STAT信号通路的异常持续激活与HSP90蛋白的相关性。 方法： 使用不同浓度17-烯丙胺-17-脱甲氧格尔德霉素（17-AAG）作用于HTLV-1感染ATL细胞株HUT-102，CCK8法检测细胞增殖，流式细胞术检测细胞凋亡，RT-PCR检测JAK3基因mRNA表达，Western blot检测JAK3、STAT5、p-STAT5、HSP90蛋白表达。 结果： HUT-102细胞株内HSP90蛋白表达量显著高于正常人外周血单个核细胞（P&lt;0.05）。17-AAG能显著抑制HUT-102细胞增殖，17-AAG的浓度在0~2 000 nmol/L时，细胞存活率随着给药浓度的提高逐渐下降，17-AAG浓度在2 000~8 000 nmol/L范围时，细胞存活率差异无统计学意义（P&gt;0.05）。细胞凋亡实验中，未刺激组细胞凋亡率为（9.23±0.67）%，刺激组凋亡率随着17-AAG浓度增加而显著增加，浓度2 000 nmol/L时凋亡率达到（87.82±2.46）%；但在不同浓度（0、250、500、1 000 nmol/L）抑制剂刺激HUT-102细胞24 h后，JAK3 mRNA的表达无明显变化。 结论： HTLV感染的ATL细胞株HUT-102细胞中，JAK3激酶作为HSP90的客体蛋白被异常活化，导致其下游信号蛋白p-STAT5异常持续性激活。17-AAG能显著下调JAK3、p-STAT5蛋白表达，抑制HUT-102细胞增殖、诱导凋亡。.</AbstractText>
+        </OtherAbstract>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">HSP90 heat-shock proteins</Keyword>
+            <Keyword MajorTopicYN="N">Inhibitor</Keyword>
+            <Keyword MajorTopicYN="N">Leukemia, T cell</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28954352</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
