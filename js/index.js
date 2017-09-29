@@ -18,6 +18,10 @@ class  PubmedArticle{
         this.setenceCount = this.getArticleSentenceCount();
     }
 
+	getFileName(){
+		return path.basename(this.filepath);
+	}
+
     getCharacterCount(){
       let character_cnt = 0;
       for(let i=0;i<this.abstract_arr.length;++i){
@@ -77,6 +81,15 @@ class  PubmedArticle{
 
 }
 
+function insert_cnt_table_row(article,i){
+	 var table = document.getElementById("count_table");
+	 var row =  table.insertRow(table.rows.length);
+	 var cols =  [article.getArticleSentenceCount(),article.getArticleWordCount(),article.getCharacterCount(),article.getFileName()];
+      cols.forEach(function(col) {
+        let cell = row.insertCell(0);
+        cell.innerHTML = col;
+      });
+}
 
 fileReaderBtn.addEventListener('click', function () {
 	//document.getElementById('file-input').click();
@@ -85,11 +98,10 @@ fileReaderBtn.addEventListener('click', function () {
       if (! fs.existsSync(corpus_folder )) {
             window.alert('corpus doesnt exist!');
       }
-
+			let article_infos = [] ;
       fs.readdir(corpus_folder , (err, files) => {
-        let article_infos = [] ;
         files.forEach(filename => {
-          console.log(filename);
+
           const filepath = path.join(corpus_folder,filename);
 
           fs.readFile(filepath, 'utf8', function(err, data) {
@@ -110,17 +122,16 @@ fileReaderBtn.addEventListener('click', function () {
                     info = new PubmedArticle(filepath,data,result,abstracts);
                     //console.log(info);
                     article_infos.push(info);
-
+                    insert_cnt_table_row(info);
 
                 });
             });
         });
-        console.log('results');
-        console.log(article_infos);
+
+
         //sessionStorage.setItem("Articles", article_infos);
 
       });
-
-
+      document.getElementById("count_result").style.display="block";
 
 });

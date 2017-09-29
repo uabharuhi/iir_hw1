@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <style>
+    #count_result{
+      display:none;
+    }
+    table, th, td {
+    border: 1px solid black;
+    }
+    </style>
 
   </head>
   <body>
@@ -10,8 +18,22 @@
 		<button id="readfile">Press Me</button>
     <input id="file-input" type="file" name="name" style="display: none;" />
 		<div id="selected-file">
-		
+
 		</div>
+            <div id="count_result">
+            <table id ="count_table">
+             <thead>
+            <tr>
+              <th align="left">File</th>
+              <th align="left">Characters</th>
+              <th align="left">Words</th>
+              <th align="left">Sentences</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            </table>
+            </div>
 	<script>
 	require('./js/async-msg');
   require('./js/index');
