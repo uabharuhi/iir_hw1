@@ -4,6 +4,15 @@
 如何得到每一個句子
 . - 2*(...) +(!)+(?)+ - [not word[0-5].[0-5]not word] 人名
 
+如何使用materialize icon在electron
+自己download sources..
+
+1. download https://fonts.googleapis.com/icon?family=Material+Icons
+
+2. download  https://fonts.gstatic.com/s/materialicons/v29/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2
+
+3. url(./download woff2 path)
+
 
 
 

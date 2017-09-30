@@ -3,37 +3,85 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <link type="text/css" rel="stylesheet" href="./materialize/css/materialize.min.css" />
     <style>
-    #count_result{
+    @font-face {
+      font-family: 'Material Icons';
+      font-style: normal;
+      font-weight: 400;
+      src: url('./micon.woff2') format('woff2');
+    }
+
+    .material-icons {
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+        ._hidden{
       display:none;
     }
-    table, th, td {
-    border: 1px solid black;
+
+    ._show{
+      display:block;
     }
     </style>
 
   </head>
   <body>
-    <h1>Simple Demo</h1>
-		<button id="readfile">Press Me</button>
-    <input id="file-input" type="file" name="name" style="display: none;" />
-		<div id="selected-file">
+    <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Demo</a>
+      <ul id="nav-mobile" class="right">
+        <li><a href="#" id="corpus">Corpus</a></li>
+        <li><a href="#" id="search">Search</a></li>
+      </ul>
+    </div>
+    </nav>
 
-		</div>
-            <div id="count_result">
-            <table id ="count_table">
-             <thead>
-            <tr>
-              <th align="left">File</th>
-              <th align="left">Characters</th>
-              <th align="left">Words</th>
-              <th align="left">Sentences</th>
-            </tr>
-            </thead>
-            <tbody>
-            </tbody>
-            </table>
+		<div id="screen" class="container">
+            <div id="count_result" class="_hidden row">
+              <table>
+               <thead>
+              <tr>
+                <th>File</th>
+                <th>Characters</th>
+                <th>Words</th>
+                <th>Sentences</th>
+              </tr>
+              </thead>
+              <tbody id="count_table">
+              </tbody>
+              </table>
             </div>
+
+            <div id="search_page" class="_hidden row">
+                
+                 
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">search</i>
+                      <input id="query_bar" type="text" placeholder="enter your query..">
+                      <div id="query_result" class="_whidden">
+                       
+                      </div>
+                    </div>
+            
+
+        
+
+          </div>
+  <script  src="./hammer.min.js"></script>
+  <script  src="./jquery.min.js"></script>
+  <script  src="./materialize/js/materialize.min.js"></script>
 	<script>
 	require('./js/async-msg');
   require('./js/index');
