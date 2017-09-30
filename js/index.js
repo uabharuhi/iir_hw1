@@ -12,16 +12,30 @@ var index ={};
 
 
 class  PubmedArticle{
-    constructor(filepath,fulltext,json_obj,abstract_arr) {
+    constructor(filepath,title,fulltext,json_obj,abstract_arr) {
         this.filepath = filepath;
         this.fulltext = fulltext;
         this.json_obj = json_obj;
         this.abstract_arr = abstract_arr;
+        this.title = title;
+        this.content_list =[];
+
+        this.create_content_list();
+
 
         this.character_cnt = this.getCharacterCount();
         this.word_cnt = this.getArticleWordCount();
         this.setenceCount = this.getArticleSentenceCount();
     }
+
+  create_content_list(){
+    this.content_list.push(this.title);
+    for(let i=0;i<this.abstract_arr.length;++i){
+        for(let j =0;j<this.abstract_arr[i].length;++j){ //beacause xml library think there may be other node <abstract text>
+          this.content_list.push(this.abstract_arr[i][j]);
+        }
+     }
+  }
 
 	getFileName(){
 		return path.basename(this.filepath);
@@ -29,44 +43,34 @@ class  PubmedArticle{
 
   query(re){
       let  res = [];
-      for(let i=0;i<this.abstract_arr.length;++i){
-        for(let j =0;j<this.abstract_arr[i].length;++j){ //beacause xml library think there may be other node <abstract text>
-            let m =0;
-            while(m=re.exec(this.abstract_arr[i][j])){
+      let m =null;
+      for(let i=0;i<this.content_list.length;++i){
+          while(m=re.exec(this.content_list[i])){
               res.push(m[0]);
-            }
-
-        }
+          }
       }
-
       return res;
     }
 
     getCharacterCount(){
       let character_cnt = 0;
-      for(let i=0;i<this.abstract_arr.length;++i){
-        for(let j =0;j<this.abstract_arr[i].length;++j){
-            character_cnt+= this.abstract_arr[i][j].length;
-        }
+      for(let i=0;i<this.content_list.length;++i){
+          character_cnt+=this.content_list[i].length;
       }
       return character_cnt;
     }
 
     getArticleWordCount(){
       let word_cnt =0;
-      for(let i=0;i<this.abstract_arr.length;++i){
-        for(let j =0;j<this.abstract_arr[i].length;++j){ //beacause xml library think there may be other node <abstract text>
-            word_cnt += this.getWordCount(this.abstract_arr[i][j])
-        }
+      for(let i=0;i<this.content_list.length;++i){
+           word_cnt+=this.getWordCount(this.content_list[i]);
       }
       return word_cnt;
     }
     getArticleSentenceCount(){
       let sen_cnt =0;
-      for(let i=0;i<this.abstract_arr.length;++i){
-        for(let j =0;j<this.abstract_arr[i].length;++j){
-            sen_cnt += this.getSetenceCount(this.abstract_arr[i][j])
-        }
+      for(let i=0;i<this.content_list.length;++i){
+          sen_cnt+= this.getSetenceCount(this.content_list[i]);
       }
       return sen_cnt;
     }
@@ -92,13 +96,7 @@ class  PubmedArticle{
         return 0;
       }
       return match.length;
-
     }
-
-
-
-
-
 }
 
 function insert_cnt_table_row(article,i){
@@ -117,16 +115,11 @@ function clear_screen(){
     xs[i].classList.remove("_show");
   }
 }
-/*
-      <ul class="collection with-header">
-        <li class="collection-header"><h4>First Names</h4></li>
-        <li class="collection-item"></li>
-        <li class="collection-item"></li>
-        <li class="collection-item"></li>
-        <li class="collection-item"></li>
-      </ul>
-      */
+
 function showQueryResults(article,res){
+  if(res.length==0){
+    return;
+  }
   var div = document.getElementById('query_result');
   const filepath =  article.filepath;
   //var ul = $(`<ul class="collection with-header"><li class="collection-header"><h5>${filepath}</h5></li></ul>`);
@@ -134,7 +127,9 @@ function showQueryResults(article,res){
  
   for(let i=0;i<res.length;++i){
     let text = res[i];
+    let divider = $(`<div class="divider"></div>`);
     let li = $(`<li>${text}</li>`);
+    ul.append(divider);
     ul.append(li);
   }
   
@@ -204,17 +199,18 @@ fileReaderBtn.addEventListener('click', function () {
                 const xml = data;
                 parseString(xml, function (err, result) {
                     //inspect(result);
+
                     if(result === undefined){
                         window.alert( `Can not parse  : ${filepath}`);
                         return;
                     }
                     const abstracts = jp.query(result, '$..AbstractText');
-
+                    const title = jp.query(result,'$..ArticleTitle');
                     if(abstracts.length==0){
                         window.alert( `no abstract in ${filepath}`);
                         return;
                     }
-                    info = new PubmedArticle(filepath,data,result,abstracts);
+                    info = new PubmedArticle(filepath,title[0][0],data,result,abstracts);
                     //console.log(info);
                     index.article_infos.push(info);
                     insert_cnt_table_row(info);
